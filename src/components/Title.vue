@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>La mia prima app con Vue CLI</h1>
+    <div class="title">
+        <h1>LA MIA PRIMA APP CON VUE CLI</h1>
     </div>
 </template>
 
@@ -12,5 +12,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.title{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
 </style>
