@@ -16,5 +16,8 @@ export default {
     height: 100px;
     text-align: center;
     line-height: 100px;
+    color: whitesmoke;
+    background-color: rgb(65, 182, 130);
+    margin: 0;
 }
 </style>

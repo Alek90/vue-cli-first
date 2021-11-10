@@ -14,15 +14,14 @@ export default {
 
 <style scoped>
 .hero{
-    width: 275px;
-    height: 275px;
-    margin: auto;
+    height: 550px;
+    margin:0 auto;
     text-align: center;
-    line-height: 275px;
-    background-image: url(../assets/logo.png);
+    line-height: 550px;
+    color: whitesmoke;
+    background-image: url(https://images.ctfassets.net/nj2caiz7hkjw/5SdA2VBLpKUsAeumA2EsMa/537af179a90aba7a0ce3f823d9d69408/form-with-vuejs.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    border: 2px solid black;
-    border-radius: 50%;
+    background-position: top;
 }
 </style>
