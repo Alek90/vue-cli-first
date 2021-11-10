@@ -28,6 +28,5 @@ export default {
 }
 #app{
   height: 100vh;
-  background-color: rgb(52, 73, 94);
 }
 </style>

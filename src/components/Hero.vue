@@ -13,7 +13,11 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta reprehenderit nobis vitae cumque repudiandae nisi est et.
             </p>
 
+            <p class="bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, odio repudiandae nostrum, consequuntur vitae ratione quas mollitia, maxime cupiditate quisquam laudantium quod facere nam ipsa culpa dolores animi modi repellat sunt totam vero quae ex.</p>
+
         </div>
+
+        
 
     </div>
 </template>
@@ -26,10 +30,10 @@ export default {
 
 <style scoped>
 .hero{
-    width: 570px;
-    height: 300px;
+    width: 750px;
+    height: 420px;
     margin:0 auto;
-    padding: 35px;
+    padding: 50px;
     text-align: center;
     color: whitesmoke;
     background-image: url(https://images.ctfassets.net/nj2caiz7hkjw/5SdA2VBLpKUsAeumA2EsMa/537af179a90aba7a0ce3f823d9d69408/form-with-vuejs.jpg);
@@ -40,13 +44,16 @@ export default {
 }
 
 h2{
-    line-height: 135px;
+    line-height: 120px;
     text-decoration: underline;
 }
 
 .option{
+    height: 200px;
     display: flex;
     justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
 }
 
 p{
@@ -59,5 +66,9 @@ p{
 
 .right{
     width: 55%;
+}
+
+.bottom{
+    width: 100%;
 }
 </style>

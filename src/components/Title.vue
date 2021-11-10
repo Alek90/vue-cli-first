@@ -14,9 +14,10 @@ export default {
 <style scoped>
 .title{
     height: 100px;
+    margin: 0 0 50px;
     text-align: center;
     line-height: 100px;
     color: whitesmoke;
-    margin: 0;
+    background-color: rgb(52, 73, 94);
 }
 </style>
