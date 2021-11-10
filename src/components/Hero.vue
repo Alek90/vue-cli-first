@@ -16,7 +16,7 @@ export default {
 
 <style scoped>
 .hero{
-    height: 550px;
+    height: 750px;
     margin:0 auto;
     padding: 100px 175px;
     text-align: center;
